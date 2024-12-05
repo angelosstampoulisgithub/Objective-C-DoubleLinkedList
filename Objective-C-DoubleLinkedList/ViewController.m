@@ -26,11 +26,12 @@
 }
 -(void) createDoubleLinkedList{
     _list = [[DoubleLinkedList alloc] init];
-    [_list append:@1009];
-    [_list append:@2000];
-    [_list append:@3000];
-    [_list append:@4000];
-    [_list append:@5000];
+    [_list appendRecord:@1000];
+    [_list appendRecord:@2000];
+    [_list appendRecord:@3000];
+    [_list appendRecord:@4000];
+    [_list appendRecord:@5000];
+    [_list deleteRecord];
     [_array addObjectsFromArray:[_list createArray]];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

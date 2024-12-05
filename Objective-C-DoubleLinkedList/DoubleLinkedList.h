@@ -14,8 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) Node *tail;
 
 - (BOOL)isEmpty;
-- (void)append:(id)value;
-- (void)printList;
+- (void) appendRecord:(id)value;
+- (void) deleteRecord;
+- (void) printList;
 -(NSArray*) createArray;
 @end
 

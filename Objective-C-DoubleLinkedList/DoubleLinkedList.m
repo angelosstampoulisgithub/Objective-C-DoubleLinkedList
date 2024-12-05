@@ -11,7 +11,7 @@
     return self.head == nil;
 }
 
-- (void)append:(id)value {
+- (void)appendRecord:(id)value {
     Node *newNode = [[Node alloc] initWithValue:value];
     if (self.head == nil) {
         self.head = newNode;
@@ -21,6 +21,22 @@
         self.tail.next = newNode;
         self.tail = newNode;
     }
+}
+-(void) deleteRecord{
+        if (self.head == NULL) {
+           return;
+       }
+     
+       if (self.head == self.tail) {
+           self.head = NULL;
+           self.tail = NULL;
+           return;
+       }
+     
+       Node *temp = self.head;
+       self.head = self.head.next;
+       self.head.prev = NULL;
+       temp.next = NULL;
 }
 -(NSArray*) createArray{
     NSMutableArray *array = [NSMutableArray array];
