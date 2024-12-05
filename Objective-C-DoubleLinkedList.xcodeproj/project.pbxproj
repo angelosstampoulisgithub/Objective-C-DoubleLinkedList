@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6752C732D01CF4500F2628F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6752C4F2D01CF4300F2628F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6752C562D01CF4300F2628F;
+			remoteInfo = "Objective-C-DoubleLinkedList";
+		};
+		D6752C7D2D01CF4500F2628F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6752C4F2D01CF4300F2628F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6752C562D01CF4300F2628F;
+			remoteInfo = "Objective-C-DoubleLinkedList";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6752C572D01CF4300F2628F /* Objective-C-DoubleLinkedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-DoubleLinkedList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6752C722D01CF4500F2628F /* Objective-C-DoubleLinkedListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-DoubleLinkedListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6752C7C2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-DoubleLinkedListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D6752C842D01CF4500F2628F /* Exceptions for "Objective-C-DoubleLinkedList" folder in "Objective-C-DoubleLinkedList" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D6752C562D01CF4300F2628F /* Objective-C-DoubleLinkedList */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6752C592D01CF4300F2628F /* Objective-C-DoubleLinkedList */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6752C842D01CF4500F2628F /* Exceptions for "Objective-C-DoubleLinkedList" folder in "Objective-C-DoubleLinkedList" target */,
+			);
+			path = "Objective-C-DoubleLinkedList";
+			sourceTree = "<group>";
+		};
+		D6752C752D01CF4500F2628F /* Objective-C-DoubleLinkedListTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-DoubleLinkedListTests";
+			sourceTree = "<group>";
+		};
+		D6752C7F2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-DoubleLinkedListUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6752C542D01CF4300F2628F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6752C6F2D01CF4500F2628F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6752C792D01CF4500F2628F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6752C4E2D01CF4300F2628F = {
+			isa = PBXGroup;
+			children = (
+				D6752C592D01CF4300F2628F /* Objective-C-DoubleLinkedList */,
+				D6752C752D01CF4500F2628F /* Objective-C-DoubleLinkedListTests */,
+				D6752C7F2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests */,
+				D6752C582D01CF4300F2628F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6752C582D01CF4300F2628F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6752C572D01CF4300F2628F /* Objective-C-DoubleLinkedList.app */,
+				D6752C722D01CF4500F2628F /* Objective-C-DoubleLinkedListTests.xctest */,
+				D6752C7C2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6752C562D01CF4300F2628F /* Objective-C-DoubleLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6752C852D01CF4500F2628F /* Build configuration list for PBXNativeTarget "Objective-C-DoubleLinkedList" */;
+			buildPhases = (
+				D6752C532D01CF4300F2628F /* Sources */,
+				D6752C542D01CF4300F2628F /* Frameworks */,
+				D6752C552D01CF4300F2628F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6752C592D01CF4300F2628F /* Objective-C-DoubleLinkedList */,
+			);
+			name = "Objective-C-DoubleLinkedList";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-DoubleLinkedList";
+			productReference = D6752C572D01CF4300F2628F /* Objective-C-DoubleLinkedList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6752C712D01CF4500F2628F /* Objective-C-DoubleLinkedListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6752C8A2D01CF4500F2628F /* Build configuration list for PBXNativeTarget "Objective-C-DoubleLinkedListTests" */;
+			buildPhases = (
+				D6752C6E2D01CF4500F2628F /* Sources */,
+				D6752C6F2D01CF4500F2628F /* Frameworks */,
+				D6752C702D01CF4500F2628F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6752C742D01CF4500F2628F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6752C752D01CF4500F2628F /* Objective-C-DoubleLinkedListTests */,
+			);
+			name = "Objective-C-DoubleLinkedListTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-DoubleLinkedListTests";
+			productReference = D6752C722D01CF4500F2628F /* Objective-C-DoubleLinkedListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6752C7B2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6752C8D2D01CF4500F2628F /* Build configuration list for PBXNativeTarget "Objective-C-DoubleLinkedListUITests" */;
+			buildPhases = (
+				D6752C782D01CF4500F2628F /* Sources */,
+				D6752C792D01CF4500F2628F /* Frameworks */,
+				D6752C7A2D01CF4500F2628F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6752C7E2D01CF4500F2628F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6752C7F2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests */,
+			);
+			name = "Objective-C-DoubleLinkedListUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-DoubleLinkedListUITests";
+			productReference = D6752C7C2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6752C4F2D01CF4300F2628F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D6752C562D01CF4300F2628F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D6752C712D01CF4500F2628F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6752C562D01CF4300F2628F;
+					};
+					D6752C7B2D01CF4500F2628F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6752C562D01CF4300F2628F;
+					};
+				};
+			};
+			buildConfigurationList = D6752C522D01CF4300F2628F /* Build configuration list for PBXProject "Objective-C-DoubleLinkedList" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6752C4E2D01CF4300F2628F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6752C582D01CF4300F2628F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6752C562D01CF4300F2628F /* Objective-C-DoubleLinkedList */,
+				D6752C712D01CF4500F2628F /* Objective-C-DoubleLinkedListTests */,
+				D6752C7B2D01CF4500F2628F /* Objective-C-DoubleLinkedListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6752C552D01CF4300F2628F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6752C702D01CF4500F2628F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6752C7A2D01CF4500F2628F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6752C532D01CF4300F2628F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6752C6E2D01CF4500F2628F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6752C782D01CF4500F2628F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6752C742D01CF4500F2628F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6752C562D01CF4300F2628F /* Objective-C-DoubleLinkedList */;
+			targetProxy = D6752C732D01CF4500F2628F /* PBXContainerItemProxy */;
+		};
+		D6752C7E2D01CF4500F2628F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6752C562D01CF4300F2628F /* Objective-C-DoubleLinkedList */;
+			targetProxy = D6752C7D2D01CF4500F2628F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6752C862D01CF4500F2628F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-DoubleLinkedList/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-DoubleLinkedList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6752C872D01CF4500F2628F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-DoubleLinkedList/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-DoubleLinkedList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6752C882D01CF4500F2628F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6752C892D01CF4500F2628F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6752C8B2D01CF4500F2628F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-DoubleLinkedListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-DoubleLinkedList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-DoubleLinkedList";
+			};
+			name = Debug;
+		};
+		D6752C8C2D01CF4500F2628F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-DoubleLinkedListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-DoubleLinkedList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-DoubleLinkedList";
+			};
+			name = Release;
+		};
+		D6752C8E2D01CF4500F2628F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-DoubleLinkedListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-DoubleLinkedList";
+			};
+			name = Debug;
+		};
+		D6752C8F2D01CF4500F2628F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-DoubleLinkedListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-DoubleLinkedList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6752C522D01CF4300F2628F /* Build configuration list for PBXProject "Objective-C-DoubleLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6752C882D01CF4500F2628F /* Debug */,
+				D6752C892D01CF4500F2628F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6752C852D01CF4500F2628F /* Build configuration list for PBXNativeTarget "Objective-C-DoubleLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6752C862D01CF4500F2628F /* Debug */,
+				D6752C872D01CF4500F2628F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6752C8A2D01CF4500F2628F /* Build configuration list for PBXNativeTarget "Objective-C-DoubleLinkedListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6752C8B2D01CF4500F2628F /* Debug */,
+				D6752C8C2D01CF4500F2628F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6752C8D2D01CF4500F2628F /* Build configuration list for PBXNativeTarget "Objective-C-DoubleLinkedListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6752C8E2D01CF4500F2628F /* Debug */,
+				D6752C8F2D01CF4500F2628F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6752C4F2D01CF4300F2628F /* Project object */;
+}
